@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include QMK_KEYBOARD_H
-#include "song.h"
+#include "lib/song.h"
 
 enum layers {
   _BASE,
@@ -60,7 +60,7 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
             rgb_matrix_set_color_all(60, 20, 20);
             break;
         case 1:
-            rgb_matrix_set_color_all(10, 60, 50);
+            rgb_matrix_set_color_all(15, 35, 60);
             break;
         default:
             break;
