@@ -57,9 +57,8 @@
             "gradient_up_down": true
         },
         "default": {
-            "animation": "gradient_up_down"
-            "hue": 180,
-            "sat": 210,
+            "hue": 220,
+            "sat": 140,
             "val": 128
         },
         "max_brightness": 150,
